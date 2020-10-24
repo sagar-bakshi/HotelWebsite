@@ -11,12 +11,16 @@
 
 .search {
     flex: 0 0 40%;
+
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    @media only screen and (max-width:$bp-smallest) {
-        order: 1;    
+
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+        background-color: var(--color-grey-light-2);
     }
 
     &__input {
@@ -63,7 +67,7 @@
     &__icon {
         height: 2rem;
         width: 2rem;
-        fill: var(--color-grey-light-2);
+        fill: var(--color-grey-dark-2);
     }
 }
 
@@ -139,7 +143,7 @@
 
 .side-nav{
 
-    @media only screen and (max-width:$bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         display: flex;
         margin: 0;
     }
@@ -150,15 +154,15 @@
 
     &__item{
         position: relative;
-        
-        @media only screen and (max-width:$bp-medium) {
+
+        @media only screen and (max-width: $bp-medium) {
             flex: 1;
         }
 
         &:not(:last-child){
             margin-bottom: .5rem;
 
-            @media only screen and (max-width:$bp-medium) {
+            @media only screen and (max-width: $bp-medium) {
                 margin-bottom:0;
             }
 
@@ -225,7 +229,7 @@
         margin-right: 2rem;
         fill: currentColor;
 
-        @media only screen and (max-width:$bp-small) {
+        @media only screen and (max-width: $bp-small) {
             margin-right: 0;
             width: 1.25rem;
             height: 1.25rem;
@@ -236,7 +240,7 @@
 
 .legal{
 
-    @media only screen and (max-width:$bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         display: none;
     }
 
@@ -272,12 +276,12 @@
         letter-spacing: 1.5px;
         padding: 1.5rem 2rem;
 
-        @media only screen and (max-width:$bp-small) {
+        @media only screen and (max-width: $bp-small) {
             font-size: 2rem;
             padding: 1rem 2rem;
         }
 
-        
+
     }
 
     &__stars{
@@ -315,7 +319,7 @@
         justify-content: center;
         align-items: center;
 
-        @media only screen and (max-width:$bp-small) {
+        @media only screen and (max-width: $bp-small) {
             padding: 0.25rem;
         }
 
@@ -326,7 +330,7 @@
         font-weight: 300;
         margin-bottom: -3px;
 
-        @media only screen and (max-width:$bp-small) {
+        @media only screen and (max-width: $bp-small) {
             font-size: 2rem;
         }
 
@@ -414,7 +418,7 @@
     border-top: var(--line);
     border-bottom: var(--line);
 
-    @media only screen and (max-width:$bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         margin: 2rem 0;
     }
 
@@ -458,7 +462,7 @@
     align-items: center;
 
     &__friends{
-        @media only screen and (max-width:$bp-medium) {
+        @media only screen and (max-width: $bp-medium) {
             display: flex;
         }
     }
@@ -513,7 +517,7 @@
     }
 
     &__rating{
-        font-size: 1.5;
+        font-size: 1.5rem;
         font-weight: 700;
         color: var(--color-primary);
     }
@@ -560,15 +564,15 @@
         text-transform: uppercase;
         margin-bottom: 2.5rem;
 
-        @media only screen and (max-width:$bp-medium) {
+        @media only screen and (max-width: $bp-medium) {
             margin-bottom: 1.5rem;
         }
     }
 
-    @media only screen and (max-width:$bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
         padding: 2.5rem;
     }
-    
+
 }
 
 ////////////CTA btn/////////
@@ -611,7 +615,7 @@
         background-image: linear-gradient(to right, var(--color-primary-dark), var(--color-primary-light));
     }
 
-    
+
 
     &:focus{
         outline: none;
