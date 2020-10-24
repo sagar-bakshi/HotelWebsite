@@ -254,11 +254,21 @@
 
 .gallery{
     display: flex;
+    overflow: hidden;
 
     &__photo{
         width: 100%;
         display: block;
+        transform: scale(1.15);
+        transition: all .2s;
+        opacity: 0.8;
+
+        &:hover{
+            transform: scale(1);
+            opacity: 1;
+        }
     }
+
 }
 
 /////////////Hotel Overview /////////

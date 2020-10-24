@@ -214,10 +214,17 @@ body {
       display: none; } }
 
 .gallery {
-  display: flex; }
+  display: flex;
+  overflow: hidden; }
   .gallery__photo {
     width: 100%;
-    display: block; }
+    display: block;
+    transform: scale(1.15);
+    transition: all .2s;
+    opacity: 0.8; }
+    .gallery__photo:hover {
+      transform: scale(1);
+      opacity: 1; }
 
 .overview {
   display: flex;
