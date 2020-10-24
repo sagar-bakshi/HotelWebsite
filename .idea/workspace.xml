@@ -13,7 +13,7 @@
     <list default="true" id="2afdaa96-36bd-4f2a-98c8-fbc108121445" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout.scss" afterDir="false" />
     </list>
@@ -43,12 +43,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HotelWebsite/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HotelWebsite/starter/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -64,6 +68,7 @@
       <workItem from="1603032697506" duration="56000" />
       <workItem from="1603186944284" duration="1872000" />
       <workItem from="1603447935912" duration="759000" />
+      <workItem from="1603529979227" duration="407000" />
     </task>
     <servers />
   </component>
@@ -91,5 +96,9 @@
     </state>
     <state x="149" y="28" key="SettingsEditor/0.23.1280.733@0.23.1280.733" timestamp="1603187434156" />
     <state x="149" y="28" key="SettingsEditor/1280.23.1920.1057/0.23.1280.733@0.23.1280.733" timestamp="1603448691891" />
+    <state x="452" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603530287835">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="452" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.733@0.23.1280.733" timestamp="1603530287835" />
   </component>
 </project>
